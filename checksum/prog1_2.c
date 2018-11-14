@@ -24,7 +24,6 @@ unsigned int GetCheckSum(unsigned char *message, int file_length) {
 }
 
 int main(int argc, char *argv[]){	
-	printf("Assignment #1-2, Joseph Tinglof, jbtinglof@gmail.com\n");
 	if(argc < 2){
 		fprintf(stderr,"Incorrect number of arguments\n");
 		return 1;
