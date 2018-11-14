@@ -1,11 +1,3 @@
-# CS530Assignment1
-
-Joseph
-
-Tinglof
-
-jbtinglof@gmail.com
-
 ## **Files Included:**
 
 * this README
@@ -48,5 +40,3 @@ all sections with a matching name are placed in buffers and sent through the crc
 
 No bugs have been encountered using parts 1 & 2. Part 3 has a flaw in that it will 
 only chehcksum the first section header regardless of what is the second argument. 
-This is due to procrastination preventing me from finishing the code that would 
-parse the table of strings.
