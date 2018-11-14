@@ -25,7 +25,6 @@ unsigned int GetCheckSum(unsigned char *message, int file_length) {
 }
 
 int main(int argc, char *argv[]){	
-	printf("Assignment #1-3, Joseph Tinglof, jbtinglof@gmail.com\n");
 	if(argc < 2){
 		fprintf(stderr,"Incorrect number of arguments\n");
 		return 1;
@@ -58,7 +57,7 @@ int main(int argc, char *argv[]){
  fseek(fptr, tableOff, SEEK_SET);
  
  
- //temp
+ //temp, fix to seek section nameed in second command line argument
  rewind(fptr);
  long int finalSection = shStart;
  buffer = (char *) malloc(shSize);
