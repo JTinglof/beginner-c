@@ -4,7 +4,6 @@
 
 int main()
 {
-printf("Assigment #1-2, Joseph Tinglof, jbtinglof@gmail.com\n");
 char userWords[250];
 char lineMaker[2] = " ";
 char *token;
