@@ -1,2 +1,2 @@
-# beginner-c
-School work done in C
+# Beginner C
+A collection of simple projects done in C.
